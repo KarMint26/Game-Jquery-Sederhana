@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.Background {
+    position: relative;
+    width: 100%;
+    height: 770px;
+}
+
+.Char {
+    position: absolute;
+    left: 50px;
+    bottom: 180px;
+}
+
+.icon {
+    position: absolute;
+}
+
+.icon span {
+    position: absolute;
+    font-size: 130px;
+    color: #ff0044;
+    z-index: 999px;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 1));
+}
+
+.icon #Up {
+    right: -555px;
+    bottom: -210px;
+}
+
+.icon #Right {
+    right: -640px;
+    bottom: -300px;
+}
+
+.icon #Left {
+    right: -470px;
+    bottom: -300px
+}
+
+.icon #Bottom {
+    bottom: -390px;
+    right: -555px;
+}
